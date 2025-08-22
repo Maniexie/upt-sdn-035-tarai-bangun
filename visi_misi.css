@@ -1,0 +1,36 @@
+.background-jumbotron-visi-misi {
+  background-image: url("img/visi-misi/visi_misi.jpg");
+  background-size: cover;
+  background-position: center;
+  /* height: 500px; */
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  /* position: relative; */
+  margin-top: 3000px;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 700px;
+}
+.card {
+  flex: 1 1 250px; /* Kartu akan mengambil setidaknya 250px lebar dan mengisi ruang yang tersisa */
+  border: 1px solid #ccc; /* Contoh gaya kartu */
+  padding: 15px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.card-body {
+  display: flex; /* Menjadikan kontainer sebagai flex container */
+  flex-wrap: wrap; /* Memungkinkan kartu untuk membungkus ke baris baru */
+  gap: 20px; /* Jarak antara kartu */
+}
