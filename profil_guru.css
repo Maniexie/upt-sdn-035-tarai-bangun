@@ -2,3 +2,34 @@
   padding: 0;
   margin: 0;
 } */
+
+/* Menambahkan margin bawah pada setiap card agar lebih rapi */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+/* Menambahkan jarak antara foto guru dan nama */
+.card-img-top {
+  border-bottom: 1px solid #ddd;
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Menambahkan padding pada teks agar tidak terlalu rapat */
+.card-body {
+  padding: 15px;
+}
+
+/* Styling untuk teks nama guru */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling untuk NIP dan Jabatan */
+.card-text {
+  font-size: 1rem;
+  color: #555;
+}

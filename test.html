@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontak Kami - SDN 035 TARAI BANGUN</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      /* Custom styling */
+      .form-container {
+        border: 2px solid #000; /* Border hitam */
+        padding: 20px;
+        border-radius: 8px;
+      }
+      .form-container h3 {
+        margin-bottom: 20px;
+      }
+      .form-container .form-control {
+        margin-bottom: 12px;
+      }
+      .form-container button {
+        margin-top: 10px;
+      }
+
+      .detail-container ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      .detail-container ul li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar 1 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info py-0 fixed-top">
+      <div class="container d-flex justify-content-center">
+        <span class="navbar-text text-light">
+          <marquee behavior="" direction="" scrollamount="5">
+            Alamat: <a href="#">Jl. Raya No.123</a> | Telp: (021) 12345678 |
+            Follow us: Facebook | Twitter | Instagram
+          </marquee>
+        </span>
+      </div>
+    </nav>
+
+    <!-- Navbar 2 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+      <div class="container-fluid mx-5 p-3">
+        <img src="img/logo_kampar.png" style="width: 50px" alt="" />
+        <a class="navbar-brand" href="/">SDN 035 TARAI BANGUN</a>
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <div class="container mt-5 pt-5">
+      <section id="kontak-kami">
+        <h2 class="mb-3 py-3 text-center">Kontak Kami</h2>
+        <div class="row">
+          <!-- Form Kolom Kiri -->
+          <div class="col-lg-6 col-md-12 mb-4">
+            <div class="form-container">
+              <h3>Form Pertanyaan</h3>
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label"
+                    >Email address</label
+                  >
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleInputEmail1"
+                    aria-describedby="emailHelp"
+                  />
+                  <div id="emailHelp" class="form-text">
+                    We'll never share your email with anyone else.
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label"
+                    >Password</label
+                  >
+                  <input
+                    type="password"
+                    class="form-control"
+                    id="exampleInputPassword1"
+                  />
+                </div>
+                <div class="mb-3 form-check">
+                  <input
+                    type="checkbox"
+                    class="form-check-input"
+                    id="exampleCheck1"
+                  />
+                  <label class="form-check-label" for="exampleCheck1"
+                    >Check me out</label
+                  >
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Detail Sekolah Kolom Kanan -->
+          <div class="col-lg-6 col-md-12">
+            <div class="detail-container">
+              <h3>Detail Sekolah</h3>
+              <ul>
+                <li><strong>Alamat:</strong> Jl. Raya No.123, Kampar</li>
+                <li><strong>Visi:</strong> Menjadi Sekolah Unggul</li>
+                <li>
+                  <strong>Misi:</strong> Menyediakan Pendidikan Berkualitas
+                </li>
+                <li><strong>Kontak:</strong> (021) 12345678</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="text-center text-light bg-dark py-4">
+      <div class="container">
+        <p>&copy; 2025 UPT SDN 035 TARAIBANGUN. All rights reserved.</p>
+        <div class="social-icons mb-3">
+          <a href="#" class="text-light mx-2" title="Facebook"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="text-light mx-2" title="Twitter"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a href="#" class="text-light mx-2" title="Instagram"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-light mx-2" title="LinkedIn"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </div>
+        <div class="footer-links mb-3">
+          <a href="#" class="text-light mx-2">Privacy Policy</a>
+          <a href="#" class="text-light mx-2">Terms of Service</a>
+          <a href="#" class="text-light mx-2">About Us</a>
+        </div>
+        <p class="mb-0">
+          Built with <span class="text-danger">&hearts;</span> by Nurdian
+          Aprilianto
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
