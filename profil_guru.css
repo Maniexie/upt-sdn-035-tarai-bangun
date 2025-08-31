@@ -33,3 +33,10 @@
   font-size: 1rem;
   color: #555;
 }
+
+.card-title {
+  font-size: 0.95rem;
+}
+.card-text {
+  font-size: 0.75rem;
+}
